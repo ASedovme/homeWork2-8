@@ -1,4 +1,4 @@
-package pro.sky.homeWork2n8;
+package pro.sky.homeWork2n8.model;
 
 import java.util.Objects;
 

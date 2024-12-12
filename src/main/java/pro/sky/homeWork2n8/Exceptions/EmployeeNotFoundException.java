@@ -1,4 +1,4 @@
-package pro.sky.homeWork2n8;
+package pro.sky.homeWork2n8.Exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

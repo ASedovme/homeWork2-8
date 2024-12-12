@@ -1,4 +1,6 @@
-package pro.sky.homeWork2n8;
+package pro.sky.homeWork2n8.Service.api;
+
+import pro.sky.homeWork2n8.model.Employee;
 
 import java.util.Collection;
 import java.util.List;

@@ -1,6 +1,9 @@
-package pro.sky.homeWork2n8;
+package pro.sky.homeWork2n8.Service.impl;
 
 import org.springframework.stereotype.Service;
+import pro.sky.homeWork2n8.model.Employee;
+import pro.sky.homeWork2n8.Service.api.DepartmentService;
+import pro.sky.homeWork2n8.Service.api.EmployeeService;
 
 import java.util.Collection;
 import java.util.List;
