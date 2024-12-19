@@ -6,8 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HomeWork28Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HomeWork28Application.class, args);
-	}
+    public static void main(String[] args) {
+
+        SpringApplication.run(HomeWork28Application.class, args);
+        System.out.println("Home work");
+    }
 
 }
