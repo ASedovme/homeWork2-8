@@ -5,7 +5,6 @@ import pro.sky.homeWork2n8.model.Employee;
 import pro.sky.homeWork2n8.Service.api.DepartmentService;
 import pro.sky.homeWork2n8.Service.api.EmployeeService;
 
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
@@ -47,7 +46,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public Collection<Employee> findEmployeesByDepartment(Integer departmentId) {
+    public List<Employee> findEmployeesByDepartment(Integer departmentId) {
         return employeeService.findAll().stream()
                 .filter(e -> e.getDepartmentId() == departmentId)
                 .sorted(comparing(Employee::getLastName).thenComparing(Employee::getFirstName))
